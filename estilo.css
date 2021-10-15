@@ -1,0 +1,148 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #ffc1c7;
+    --secundario: #0997a7;
+    --gris: #757575;
+
+
+}
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y proximity;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+/*Globales*/ 
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco ) 100%  );
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+/*titulo pagina*/
+
+.titulo{
+    text-align: center;
+}
+
+/*header encabezado logo */
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header--logo{
+    margin: 3rem 0 ;
+    width: 145px; height: 145px;
+}
+
+/*footer */ 
+
+.footer{
+    background-color: #757575;
+    padding: .5rem 0;
+    margin-top: 2rem;
+
+}
+
+.footer__texto{
+    text-align: center;
+}
+
+
+/*Grid*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px ) {
+    .grid{
+        grid-template-columns: repeat(2,1fr); 
+    }
+   
+
+} 
+/*cuartos*/
+
+.cuarto{
+    background-color: var(--gris);
+    padding: 2rem;
+}
+
+.cuarto__imagen{
+
+    width: 100%;
+
+
+}
+
+
+
+.cuarto__nombre{
+    font-size: 2.5rem;
+
+}
+
+.cuarto__precio{
+    font-size: 1.6rem;
+   
+
+
+}
+
+.cuarto__nombre,
+.cuarto__precio {
+    margin: 1rem 0;
+    text-align: center;
+}
