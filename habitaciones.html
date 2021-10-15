@@ -4,12 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="css/style.css" as="style">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="preload" href="estilo.css" as="style">
+    <link href="estilo.css" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <title>Habitaciones</title>
 </head>
 <body>
-    <h1>Habitaciones disponibles</h1>
+    <header class="header">
+       
+        <a href="index.html">
+            <img class="header--logo" src="img/H.png" alt="logotipo">
+        </a>
+
+        <!-- h1 class="titulo">Habitaciones Disponibles</h1> -->
+    </header>
+
+
+    <main class="contenedor">
+        <h1>Habitaciones Disponibles</h1>
+
+        <div class="grid">
+            <div class="cuarto">
+                <img class="cuarto__imagen" src="img/h1.jpg" alt="imagen cuarto">
+                <div class="cuarto__informacion">
+                    <p class="cuarto__nombre">Simples</p>
+                    <p class="cuarto__precio"> Lunes-Viernes Q500   Sabádo-Domingo Q700</p>
+                </div>
+            </div> <!--Fin clase cuarto-->
+
+            <div class="cuarto">
+                <img class="cuarto__imagen" src="img/h6.jpg" alt="imagen cuarto">
+                <div class="cuarto__informacion">
+                    <p class="cuarto__nombre">Dobles</p>
+                    <p class="cuarto__precio">Lunes-Viernes Q1,000   Sabádo-Domingo Q1,200 </p>
+                </div>
+            </div> <!--Fin clase cuarto-->
+
+            <div class="cuarto">
+                <img class="cuarto__imagen" src="img/h7.jpg" alt="imagen cuarto">
+                <div class="cuarto__informacion">
+                    <p class="cuarto__nombre">Triples</p>
+                    <p class="cuarto__precio">Lunes-Viernes Q1,500   Sabádo-Domingo Q1,700</p>
+                </div>
+            </div> <!--Fin clase cuarto-->
+
+            <div class="cuarto">
+                <img class="cuarto__imagen" src="img/h10.jpg" alt="imagen cuarto">
+                <div class="cuarto__informacion">
+                    <p class="cuarto__nombre">Cuadruples</p>
+                    <p class="cuarto__precio">Lunes-Viernes Q2,500  Sabádo-Domingo Q2,700</p>
+                </div>
+            </div> <!--Fin clase cuarto-->
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto">Hotel Paraíso Todos los derechos reservados 2021</p>
+    </footer>
+    
 </body>
 </html>
+
+
