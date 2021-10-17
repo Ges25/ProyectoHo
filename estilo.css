@@ -47,6 +47,7 @@ img{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto;
+    
 
 }
 
@@ -104,30 +105,34 @@ h3{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 2rem;
+    
 }
 
 @media (min-width: 768px ) {
     .grid{
         grid-template-columns: repeat(2,1fr); 
+       
     }
    
 
 } 
 /*cuartos*/
 
+ 
 .cuarto{
     background-color: var(--gris);
     padding: 2rem;
+    border-radius: 2rem;
+    
 }
+
+
 
 .cuarto__imagen{
 
-    width: 100%;
-
-
+  width: 100%;
+ 
 }
-
-
 
 .cuarto__nombre{
     font-size: 2.5rem;
@@ -136,8 +141,6 @@ h3{
 
 .cuarto__precio{
     font-size: 1.6rem;
-   
-
 
 }
 
@@ -145,4 +148,22 @@ h3{
 .cuarto__precio {
     margin: 1rem 0;
     text-align: center;
+}
+
+.detalles{
+    font-size: medium;
+}
+
+h5{
+  color: var(--blanco);
+  line-height: .5rem;
+
+}
+
+.fondo{
+    background-color:#363333;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 2rem;
+    
 }
