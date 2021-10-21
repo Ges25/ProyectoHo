@@ -192,3 +192,193 @@ h5{
     cursor: pointer;
     background-color:#066974;
 }
+
+/*pagina vehiculos*/ 
+
+.vehiculos{
+    background-color: #066974;
+    padding: 1rem;
+
+}
+
+.vehiculos__imagen{
+    width: 100%;
+  
+}
+
+
+/*.vehiculos__informacion{
+
+}
+*/
+
+.vehiculos__nombre{
+    font-size: 4rem;
+    margin: 1rem 0;
+    background-color:#212121;
+ 
+
+}
+.vehiculos__precio{
+
+    font-size: 1.9rem;
+    text-align:right;
+}
+
+.carac{
+    font-size: .5rem;
+    text-align:left;
+    line-height: .5;
+
+
+}
+
+.formulario__submit__vehiculos{
+    background-color: var(--secundario);
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: backgroud-color .3s ease;
+    transition: font-size .3s ease;
+    border-radius: 1rem;
+    
+}
+
+.formulario__submit__vehiculos:hover{
+    font-size: 2.2rem;
+    cursor: pointer;
+    background-color:#066974;
+}
+
+.formulario1{
+    text-align: center;
+}
+
+
+
+/*pagina desayunos */ 
+.desayunos{
+    background-color: #aa54cc;
+    padding: 1rem;
+
+}
+
+.desayunos__imagen{
+    width: 100%;
+  
+}
+
+
+.desayunos__nombre{
+    font-size: 4rem;
+    margin: 1rem 0;
+    background-color:#7e167e;
+ 
+
+}
+.desayunos__precio{
+
+    font-size: 1.9rem;
+    text-align:right;
+}
+
+.carac{
+    font-size: .5rem;
+    text-align:left;
+    line-height: .5;
+
+
+}
+
+.formulario__submit__desayunos{
+    background-color: var(--secundario);
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: backgroud-color .3s ease;
+    transition: font-size .3s ease;
+    border-radius: 1rem;
+    
+}
+
+.formulario__submit__desayunos:hover{
+    font-size: 2.2rem;
+    cursor: pointer;
+    background-color:#066974;
+}
+
+.formulario1{
+    text-align: center;
+}
+
+.des{
+    font-style:italic;
+    color: #7e167e;
+
+}
+
+/*pagina traslados*/ 
+
+@media (min-width: 768px ) {
+
+    .contenedor-traslados{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        column-gap: 1rem;
+       
+
+        
+
+    }
+    
+} 
+
+.tres-columnas1{
+    background-color: #0997a7;
+    padding: 1rem;
+    
+    
+}
+
+.tres-columnas2{
+    background-color: #4b53c9;
+    padding: 1rem;
+}
+
+.tres-columnas3{
+    background-color: #4cad72;
+    padding: 1rem;
+}
+
+.tres-columnas4{
+    background-color: #a2b450;
+    padding: 1rem;
+}
+
+.formulario2{
+    text-align:center;
+
+}
+
+.formulario__submit__pagos{
+    background-color: var(--secundario);
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: backgroud-color .3s ease;
+    transition: font-size .3s ease;
+    border-radius: 1rem;
+    
+}
+
+.formulario__submit__pagos:hover{
+    font-size: 2.2rem;
+    cursor: pointer;
+    background-color:var(--blanco);
+}
+
+.tras{
+    background-color: #0997a7;
+    color: var(--blanco);
+}
